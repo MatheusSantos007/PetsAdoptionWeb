@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #E67E22; /* Fundo laranja para combinar com o footer */
+  color: #2C3E50; /* Texto principal */
+}
+
+/* Estilos para a navbar */
+.header-navbar {
+  background-color: #E67E22; /* Primária */
+}
+
+.header-navbar .navbar-brand {
+  font-weight: bold;
+  color: #F1C40F; /* Secundária */
+}
+
+.header-navbar .navbar-nav .nav-link {
+  color: #F1C40F; /* Secundária */
+}
+
+.header-navbar .navbar-nav .nav-link:hover {
+  color: #2ECC71; /* Acento */
+}
+
+/* Estilos para links */
+a {
+  color: #F1C40F; /* Secundária */
+}
+
+a:hover {
+  color: #2ECC71; /* Acento */
+}
+
+/* Estilos para botões */
+button {
+  background-color: #E67E22; /* Primária */
+  color: #ECF0F1; /* Neutro */
+}
+
+button:hover {
+  background-color: #2ECC71; /* Acento */
+}
+
+/* Outros estilos globais */
+h1, h2, h3, h4, h5, h6 {
+  color: #ECF0F1; /* Neutro */
+}
+
+/* Estilos para formulários */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #2C3E50; /* Borda escura */
+  border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+  border-color: #2ECC71; /* Acento */
+  outline: none;
+}
+
+/* Estilos para cards */
+.card-group {
+  margin: 20px 0;
+}
+
+.card {
+  border: 1px solid #2C3E50; /* Borda escura */
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.card-header {
+  background-color: #E67E22; /* Primária */
+  color: #ECF0F1; /* Neutro */
+}
+
+.card-body {
+  background-color: #FFFFFF; /* Fundo branco */
+  color: #2C3E50; /* Texto principal */
+}
+.inline-form {
+  display: inline-flex;
+  align-items: center;
+}

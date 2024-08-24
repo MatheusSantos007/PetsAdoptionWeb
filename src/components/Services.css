@@ -1,0 +1,23 @@
+.services-card-group {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  margin: 10px;
+  flex: 1 1 300px; /* Ajusta a largura mínima dos cartões */
+  max-width: 300px; /* Ajusta a largura máxima dos cartões */
+}
+
+.service-card img {
+  width: 100%; /* Ajusta a largura das imagens */
+  height: auto; /* Ajusta a altura das imagens automaticamente */
+  object-fit: cover; /* Garante que a imagem se ajuste ao contêiner */
+}
+
+.service-card .card-body {
+  text-align: center; /* Centraliza o texto */
+}
+

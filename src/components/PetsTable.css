@@ -1,0 +1,56 @@
+.pets-table-container {
+  margin-top: 20px;
+  text-align: center;
+  padding-bottom: 40px; /* Espaço extra para afastar do rodapé */
+}
+
+.pets-table-container h2 {
+  color: #2C3E50; /* Cor do título */
+  margin-bottom: 10px;
+}
+
+.pets-table-container .description {
+  color: #34495E; /* Cor da descrição */
+  margin-bottom: 20px;
+}
+
+.pets-table {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #f8f9fa; /* Fundo claro para a tabela */
+}
+
+.pets-table th, .pets-table td {
+  text-align: center; /* Centraliza o texto */
+  vertical-align: middle; /* Centraliza verticalmente */
+}
+
+.pets-table .pet-image {
+  border-radius: 50%; /* Torna a imagem arredondada */
+  object-fit: cover; /* Garante que a imagem se ajuste ao contêiner */
+}
+
+/* Estilos para tabelas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #FFFFFF; /* Fundo branco para contraste */
+}
+
+table th {
+  background-color: #E67E22; /* Primária */
+  color: #ECF0F1; /* Neutro */
+}
+
+table tr:nth-child(even) {
+  background-color: #F1C40F; /* Secundária */
+}
+
+table tr:nth-child(odd) {
+  background-color: #FFFFFF; /* Fundo branco */
+}
+
+table tr:hover {
+  background-color: #2ECC71; /* Acento */
+}

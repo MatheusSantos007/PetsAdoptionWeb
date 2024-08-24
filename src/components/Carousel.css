@@ -1,0 +1,15 @@
+.image-carousel {
+    margin-bottom: 20px;
+  }
+  .image-carousel {
+    width: 100%; /* Garante que o carrossel ocupe toda a largura disponível */
+  }
+  
+  .image-carousel img {
+    width: 100%; /* Garante que a imagem ocupe toda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    max-height: 400px; /* Ajuste a altura máxima conforme necessário */
+    
+  }
+  
+  

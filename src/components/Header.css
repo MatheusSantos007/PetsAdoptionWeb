@@ -1,0 +1,29 @@
+.header-navbar {
+  margin-bottom: 20px;
+  background-color: #FFA500; /* Fundo laranja */
+}
+
+.header-navbar .navbar-brand {
+  color: #FFFFFF; /* Cor dos links */
+}
+
+.header-navbar .navbar-brand img {
+  border-radius: 50%; /* Torna a imagem arredondada */
+  width: 40px; /* Ajuste o tamanho conforme necessário */
+  height: 40px; /* Ajuste o tamanho conforme necessário */
+  object-fit: cover; /* Garante que a imagem se ajuste ao contêiner */
+  margin-right: 10px; /* Adiciona espaço à direita da imagem */
+  margin-left: 10px; /* Adiciona espaço à esquerda da imagem */
+}
+
+.header-navbar .navbar-nav .nav-link {
+  color: #FFFFFF; /* Cor dos links */
+}
+
+.header-navbar .navbar-nav .nav-link:hover {
+  color: #FFD700; /* Cor dos links ao passar o mouse */
+}
+
+.header-navbar .form-inline .form-control {
+  margin-right: 10px; /* Espaço entre o campo de pesquisa e o botão */
+}
